@@ -1,6 +1,3 @@
-from crypt import methods
-from multiprocessing.sharedctypes import Value
-from typing_extensions import Required
 from flask import request, Flask
 import json
 app=Flask(__name__)
