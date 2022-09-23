@@ -4,7 +4,7 @@ FROM continuumio/miniconda3:latest
 LABEL MAINTAINER="Ahmet Sarı"
 LABEL GitHub="https://github.com/eeeng/testfile5sql"
 LABEL version="0.0"
-LABEL description="A Docker container to serve a simple Python Flask API"
+LABEL description="docker container flask rest api test"
 
 SHELL ["/bin/bash", "-c"]
 
