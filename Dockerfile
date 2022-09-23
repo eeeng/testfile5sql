@@ -17,10 +17,6 @@ ADD app ./app
 COPY serve.sh ./
 RUN chmod +x serve.sh
 
-RUN conda env update -f env.yaml
-
-RUN echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
-    echo "conda activate" >> ~/.bashrc
 
 EXPOSE 5000
 
